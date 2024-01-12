@@ -1,0 +1,87 @@
+body{
+    background-color: lightgray;
+    
+}
+.container{
+    background-color:grey;
+    width:100%;
+    border-radius: 10px;
+    box-sizing: content-box;
+    padding-bottom: 20px;
+    /* margin:10px */
+}
+.heading{
+    display:flex;
+}
+#heading_name{
+    color:darkgreen;
+    font-size: 20px;
+    width:35%;
+    padding-left:50px;
+}
+/* Horizontal List */
+.horizontal-list li{
+    display: inline-block;
+    /* margin:0px 0px 8px 0px; */
+    padding-top:23px;
+    font-weight: 100;
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
+
+.horizontal-list li a{
+    text-decoration: none;
+    color:white;
+}
+
+.horizontal-list li a{
+    transition: color 0.05s, border-bottom 2s;
+}
+
+.horizontal-list li a:hover{
+    color:rgba(51, 184, 62, 0.949);
+    border-bottom: 1px solid rgba(51, 184, 62, 0.949);
+}
+
+/* slider*/
+
+.slider img{
+    width:100%;
+    height:400px;
+}
+
+/* main */
+main{
+    box-sizing: border-box;
+}
+
+.nav-heading{
+    color:darkgreen;
+    padding-left: 50px;
+}
+
+/* Diet Plan */
+.diet-cont{
+    width:100%;
+    height:300px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+}
+
+/* .diet-box{
+    width:300px;
+    height:200px;
+    background-color: green;
+    margin:50px;
+    box-sizing: border-box;
+    overflow: auto;
+    }
+
+.diet-box h2{
+    padding-left:20px;
+    color:darkgrey;
+    position:initial
+} */
+  
