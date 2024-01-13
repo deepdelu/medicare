@@ -1,3 +1,5 @@
+// medicine js
+
 function addMedicineReminder() {
     const medicineName = document.getElementById('medicineName').value;
     const medicineTime = document.getElementById('medicineTime').value;
@@ -42,6 +44,8 @@ function removeTask(button) {
     taskItem.remove();
 }
 
+// excercise js
+
 function addExerciseTask() {
     const exerciseTaskInput = document.getElementById('exerciseTaskInput');
     const exerciseTaskList = document.getElementById('exerciseTaskList');
@@ -64,6 +68,7 @@ function removeTask(button) {
     taskItem.remove();
 }
 
+// diet plan js
 
     function addDietTask() {
         const dietName = document.getElementById("dietName").value;

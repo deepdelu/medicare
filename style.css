@@ -3,12 +3,9 @@ body{
     
 }
 .container{
-    background-color:grey;
+    background-color:deepskyblue;
     width:100%;
-    /* border-radius: 10px; */
     box-sizing: content-box;
-    /* padding-bottom: 20px; */
-    /* margin:10px */
 }
 .heading{
     display:flex;
@@ -16,13 +13,13 @@ body{
 #heading_name{
     color:darkgreen;
     font-size: 20px;
-    width:35%;
+    width:38%;
     padding-left:50px;
 }
-/* Horizontal List */
+/* Horizontal List or nav bar*/
+
 .horizontal-list li{
     display: inline-block;
-    /* margin:0px 0px 8px 0px; */
     padding-top:23px;
     font-weight: 100;
     font-size: 1.3rem;
@@ -62,6 +59,7 @@ main{
 }
 
 /* Medician */
+
 #medicine{
     margin-top: -4px;
     width:100%;
@@ -81,8 +79,6 @@ main{
     padding-left: 50px;
     /* margin-bottom: 20px; */
 }
-
-
 
 .medicine-reminder input {
     /* margin-bottom: 10px; */
@@ -107,9 +103,6 @@ main{
 /* Medicine Reminder List */
 .medicine-list {
     padding-left: 50px;
-    /* background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .medicine-list button{
@@ -153,7 +146,6 @@ main{
     display:flex;
     justify-content: space-between;
     position:relative;
-    /* background-color:red; */
 }
 
 #diet-plan{
@@ -228,6 +220,7 @@ main{
     background-color: #d32f2f;
 }
 
+/* portfolio box*/
 
 .box{
     width:300px;
@@ -236,7 +229,6 @@ main{
     margin-left:50px;
     margin-right: 50px;
     box-sizing: border-box;
-    /* overflow: auto; */
 }
 
 .box img{
@@ -247,7 +239,8 @@ main{
 
 
 
-/* Exercise Todo List */
+/* Exercise */
+
 #excercise{
     width:100%;
     height:auto;
@@ -319,13 +312,12 @@ main{
 .doct-box div1{
     width:50%;
     height:auto;
-    /* background-color: #f44336; */
 }
 
 .doct-box div2{
     width:45%;
     height:563px;
-    /* background-color: red; */
+
 }
 
 div2 img{
