@@ -5,9 +5,9 @@ body{
 .container{
     background-color:grey;
     width:100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     box-sizing: content-box;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     /* margin:10px */
 }
 .heading{
@@ -47,7 +47,7 @@ body{
 
 .slider img{
     width:100%;
-    height:400px;
+    height:420px;
 }
 
 /* main */
@@ -58,30 +58,343 @@ main{
 .nav-heading{
     color:darkgreen;
     padding-left: 50px;
+    font-size: 2rem;
+}
+
+/* Medician */
+#medicine{
+    margin-top: -4px;
+    width:100%;
+    height:auto;
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.medicine-reminder{
+    padding-left:50px;
+
+}
+
+/* Medicine Reminder */
+.medicine-reminder {
+    padding-left: 50px;
+    /* margin-bottom: 20px; */
+}
+
+
+
+.medicine-reminder input {
+    /* margin-bottom: 10px; */
+    padding: 8px;
+    width: 20%;
+    height:20px;
+}
+
+.medicine-reminder button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.medicine-reminder button:hover {
+    background-color: #45a049;
+}
+
+/* Medicine Reminder List */
+.medicine-list {
+    padding-left: 50px;
+    /* background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.medicine-list button{
+    padding: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.medicine-list ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left:40px;
+}
+
+.medicine-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width:90%;
+}
+
+.medicine-list li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.medicine-list li button:hover {
+    background-color: #d32f2f;
 }
 
 /* Diet Plan */
-.diet-cont{
+.cont{
     width:100%;
-    height:300px;
+    height:auto;
     box-sizing: border-box;
     display:flex;
     justify-content: space-between;
     position:relative;
+    /* background-color:red; */
 }
 
-/* .diet-box{
+#diet-plan{
+    width:100%;
+    height:auto;
+    background-color:cornsilk;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Diet Plan Todo List */
+.diet-todo {
+    padding-left: 50px;
+}
+
+.diet-input {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.diet-input input,
+.diet-input select {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.diet-input button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:36px;
+}
+
+.diet-input button:hover {
+    background-color: #45a049;
+}
+
+.diet-list button{
+    padding: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.diet-list ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left:40px;
+}
+
+.diet-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width:90%;
+}
+
+.diet-list li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.diet-list li button:hover {
+    background-color: #d32f2f;
+}
+
+
+.box{
     width:300px;
     height:200px;
     background-color: green;
-    margin:50px;
+    margin-left:50px;
+    margin-right: 50px;
     box-sizing: border-box;
-    overflow: auto;
-    }
+    /* overflow: auto; */
+}
 
-.diet-box h2{
-    padding-left:20px;
-    color:darkgrey;
-    position:initial
-} */
-  
+.box img{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+
+
+
+/* Exercise Todo List */
+#excercise{
+    width:100%;
+    height:auto;
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.exercise-todo {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.exercise-todo input[type="text"] {
+    padding: 8px;
+    width: 20%;
+    height:20px;
+}
+
+.exercise-todo button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exercise-todo ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left:40px;
+}
+
+.exercise-todo li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    width:90%;
+}
+
+.exercise-todo li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Doctor */
+
+#doctor{
+    width:100%;
+    height:auto;
+    background-color: aquamarine;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.doct-box{
+    display:flex;
+    justify-content: space-between;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.doct-box div1{
+    width:50%;
+    height:auto;
+    /* background-color: #f44336; */
+}
+
+.doct-box div2{
+    width:45%;
+    height:auto;
+}
+
+div2 img{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+
+/* Doctor Form */
+#doctor{
+    background-color:antiquewhite;
+}
+.doctor-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.doctor-form h2 {
+    color: darkgreen;
+    margin-bottom: 10px;
+}
+
+#patientForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#patientForm label {
+    margin-bottom: 8px;
+    color: darkgreen;
+}
+
+#patientForm input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-buttons button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-buttons button:hover {
+    background-color: #45a049;
+}
+
+/* footer */
+footer{
+    width:100%;
+    height:100px;
+    background-color: black;
+    color:white;
+}
+#footer{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 50px 0px 50px;
+    
+
+}
+#footer div2{
+    padding-top:4px;
+}
